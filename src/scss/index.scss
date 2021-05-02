@@ -1,0 +1,32 @@
+.index {
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 30% 20% 10% 30% 10%;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+		'header'
+		'heading'
+		'sub'
+		'btn'
+		'sub';
+}
+
+.header {
+	grid-area: header;
+}
+
+.heading {
+	grid-area: heading;
+}
+
+.sub {
+	grid-area: sub;
+}
+
+.btn {
+	grid-area: btn;
+}
+
+.footer {
+	grid-area: footer;
+}
